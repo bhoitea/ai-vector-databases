@@ -14,7 +14,7 @@ This repository demonstrates how to:
 ## 📂 Project Structure
 
 ```
-docker-setup.shChapter2-YugabyteDB_pgvector/
+Chapter2-YugabyteDB_pgvector/
 │
 ├── scripts/
 │   ├── docker-setup.sh         # Start YugabyteDB Docker container

@@ -4,6 +4,8 @@
 
 *Author: Amol Bhoite* — First Edition (2025) — ISBN: 978-93-343-5251-1
 
+git add .
+
 ---
 
 ## What this repo is?
@@ -67,6 +69,35 @@ The book is structured across multiple parts — foundations, internals, ecosyst
 * Similarity metrics, Indexing algorithms (HNSW, IVF, PQ), Compression & Scaling
 * Vector Stores vs. Pure Vector Databases — deep dives: pgvector, YugabyteDB, Milvus, Qdrant, Chroma, Pinecone, Weaviate, FAISS, Marqo, Vespa, Vald, etc.
 * RAG architectures, tuning, anti-patterns, and industry case studies (legal, healthcare).
+
+# 📚 Documentation Sources & Technical References
+
+Diagrams, architecture patterns, and system behavior insights are based on and inspired by official documentation from:
+
+* **Vector Stores**
+
+  * postgres pgvector: [https://github.com/pgvector/pgvector](https://github.com/pgvector/pgvector)
+  * yugabytdb pgvector: [https://docs.yugabyte.com/preview/explore/ysql-language-features/pg-extensions/extension-pgvector](https://docs.yugabyte.com/preview/explore/ysql-language-features/pg-extensions/extension-pgvector/)/
+  * Redis vector: [https://redis.io/docs/latest/develop/get-started/vector-database/](https://redis.io/docs/latest/develop/get-started/vector-database/)
+* **Pure Vector Databases**
+
+  * Pinecone:[https://docs.pinecone.io/guides/get-started/overview](https://docs.pinecone.io/guides/get-started/overview)
+  * Weaviate: [https://docs.weaviate.io/weaviate](https://docs.weaviate.io/weaviate)
+  * Milvus: [https://milvus.io/docs/overview.md](https://milvus.io/docs/overview.md)
+  * Qdrant: [https://qdrant.tech/documentation/](https://qdrant.tech/documentation/)
+  * ChromaDB:[https://docs.trychroma.com/](https://docs.trychroma.com/)
+  * Vald: [https://vald.vdaas.org/docs/](https://vald.vdaas.org/docs/)
+  * Vespa: [https://docs.vespa.ai/](https://docs.vespa.ai/)
+  * Marqo: [https://docs.marqo.ai/](https://docs.marqo.ai/)
+  * Faiss:  [https://faiss.ai/](https://faiss.ai/)
+* **Emerging Ecosystem**
+
+  * Deeplake:  [https://docs.deeplake.ai/](https://docs.deeplake.ai/)
+  * Vearch: [https://vearch.readthedocs.io/](https://vearch.readthedocs.io/)
+  * Typesense:  [https://typesense.org/docs/](https://typesense.org/docs/)
+
+All usage of external resources follows fair use guidelines and/or the license terms of the respective open-source projects.
+
 
 ---
 
